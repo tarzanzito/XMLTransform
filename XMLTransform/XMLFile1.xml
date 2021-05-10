@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<!--/////////////////////////////////////////////////////////////-->
+<xsl:template match="fieldValue[(@name='Id_QUERY_FIELD') and (../@idx = '1')]">
+  <xsl:copy>
+    <xsl:copy-of select="@*"/>
+    <xsl:value-of select="'TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT'"/>
+
+  </xsl:copy>
+
+
+</xsl:template>
+

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLTransform", "XMLTransform\XMLTransform.csproj", "{3440C31C-021C-49DF-8356-D6D6495796EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLTransformUI", "XMLTransformUI\XMLTransformUI.csproj", "{BD45368A-7E64-4175-935D-6D099EF027BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3440C31C-021C-49DF-8356-D6D6495796EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3440C31C-021C-49DF-8356-D6D6495796EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3440C31C-021C-49DF-8356-D6D6495796EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3440C31C-021C-49DF-8356-D6D6495796EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD45368A-7E64-4175-935D-6D099EF027BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD45368A-7E64-4175-935D-6D099EF027BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD45368A-7E64-4175-935D-6D099EF027BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD45368A-7E64-4175-935D-6D099EF027BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

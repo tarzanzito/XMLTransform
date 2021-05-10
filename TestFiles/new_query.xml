@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<ExtractionResult xmlns="http://tempuri.org/ExtractionResult.xsd" name="Query">
+	<parameters>
+		<parameterValue name="pPk">4028.1</parameterValue>
+		<parameterValue name="pPA">4029.1</parameterValue>
+		<parameterValue name="pPB">4030.1</parameterValue>
+	</parameters>
+	<queryResult name="theQuery">
+		<rows>
+			<row idx="0">
+				<fieldValue name="Id_QUERY_DEF">4028.1</fieldValue>
+				<fieldValue name="DELETE_FUNC"></fieldValue>
+				<fieldValue name="DESCRIPTION">Lista de comercios</fieldValue>
+				<fieldValue name="DRIVEN_FIELD"></fieldValue>
+				<fieldValue name="TXFETCHPRC"></fieldValue>
+				<fieldValue name="FIXED_TEXT">1</fieldValue>
+				<fieldValue name="NUISPROCQR">0</fieldValue>
+				<fieldValue name="IS_WORK_QUERY"></fieldValue>
+				<fieldValue name="LABEL">Lista de Comercios</fieldValue>
+				<fieldValue name="N_FIXED_COLS"></fieldValue>
+				<fieldValue name="NO_AUTO_REQUERY">0</fieldValue>
+				<fieldValue name="NO_SORTS">0</fieldValue>
+				<fieldValue name="NO_TRACKING">0</fieldValue>
+				<fieldValue name="PK_NAME">QR_COMERCIO</fieldValue>
+				<fieldValue name="SHOW_EMBEDS">1</fieldValue>
+				<fieldValue name="FK_OWNER_OBJ">1.1</fieldValue>
+				<fieldValue name="FK_PARENT">3351.1</fieldValue>
+				<fieldValue name="FK_SEARCH"></fieldValue>
+				<fieldValue name="FK_SUB_QUERY"></fieldValue>
+				<fieldValue name="FK_ZOOM">4879.1</fieldValue>
+				<fieldValue name="FKCONNECTI"></fieldValue>
+				<contain name="m_DLLZoom">
+					<fieldValue name="Id_QRY_DLL_ZOOM">1264.1</fieldValue>
+					<fieldValue name="RUN_DLL"></fieldValue>
+					<fieldValue name="RUN_FUNC"></fieldValue>
+				</contain>
+				<array name="m_Fields">
+					<rows>
+						<row idx="0">
+							<fieldValue name="Id_QUERY_FIELD">24326.1</fieldValue>
+							<fieldValue name="ALIAS"></fieldValue>
+							<fieldValue name="CAN_TRUNC">1</fieldValue>
+							<fieldValue name="COLOR_FIELD">0</fieldValue>
+							<fieldValue name="CX">7</fieldValue>
+							<fieldValue name="FIELD">TX_NUMERO</fieldValue>
+							<fieldValue name="IS_EMBED_QUERY">0</fieldValue>
+							<fieldValue name="LABEL">Número</fieldValue>
+							<fieldValue name="N_ORDER">2</fieldValue>
+							<fieldValue name="PK_FIELD">0</fieldValue>
+							<fieldValue name="FK_QUERY"></fieldValue>
+							<fieldValue name="FK_TYPEDEF"></fieldValue>
+						</row>
+						<row idx="1">
+							<fieldValue name="Id_QUERY_FIELD">24325.1</fieldValue>
+							<fieldValue name="ALIAS"></fieldValue>
+							<fieldValue name="CAN_TRUNC">1</fieldValue>
+							<fieldValue name="COLOR_FIELD">0</fieldValue>
+							<fieldValue name="CX">30</fieldValue>
+							<fieldValue name="FIELD">TX_NOME</fieldValue>
+							<fieldValue name="IS_EMBED_QUERY">0</fieldValue>
+							<fieldValue name="LABEL">Nome</fieldValue>
+							<fieldValue name="N_ORDER">1</fieldValue>
+							<fieldValue name="PK_FIELD">0</fieldValue>
+							<fieldValue name="FK_QUERY"></fieldValue>
+							<fieldValue name="FK_TYPEDEF"></fieldValue>
+						</row>
+					</rows>
+				</array>
+				<array name="m_Parameters[]">
+					<rows>
+						<row idx="0">
+							<fieldValue name="Id_PARS">20025.1</fieldValue>
+							<fieldValue name="DEFAULT_VAL"></fieldValue>
+							<fieldValue name="DESCRIPTION"></fieldValue>
+							<array name="DispatchMap[]">
+								<rows>
+									<row idx="0">
+										<fieldValue name="Id_FIELD_PAR">32099.1</fieldValue>
+										<fieldValue name="DISABLE_COND">0</fieldValue>
+										<fieldValue name="FIELD">CondComercio</fieldValue>
+										<fieldValue name="IS_IN"></fieldValue>
+										<fieldValue name="ON_NEW_PANE"></fieldValue>
+										<fieldValue name="PAR_NAME">pNOME</fieldValue>
+										<fieldValue name="FK_TO"></fieldValue>
+									</row>
+								</rows>
+							</array>
+						</row>
+					</rows>
+				</array>
+				
+				<array name="m_WhereParams">
+					<rows>
+						<row idx="0">
+							<fieldValue name="Id_WHERE_PAR">7503.1</fieldValue>
+							<fieldValue name="ALIAS">CondComercio</fieldValue>
+							<fieldValue name="DATA">upper(TX_NOME) like upper('%#pNOME#%')</fieldValue>
+							<fieldValue name="ENABLE_IF_FCOL_NULL"></fieldValue>
+							<fieldValue name="LINK"></fieldValue>
+							<fieldValue name="FILTERED_COL"></fieldValue>
+							<fieldValue name="ISFILTER">0</fieldValue>
+							<fieldValue name="FK_OBJECT"></fieldValue>
+							<fieldValue name="FK_QUERY"></fieldValue>
+						</row>
+					</rows>
+				</array>
+			</row>
+		</rows>
+	</queryResult>
+</ExtractionResult>
